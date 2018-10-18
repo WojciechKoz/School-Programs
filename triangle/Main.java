@@ -8,9 +8,9 @@ public class Main {
 
             t.type();
 
-            System.out.println("pole : " + t.pole());
+            System.out.println("pole : " + t.field());
 
-            System.out.println("obwod : " + t.obwod());
+            System.out.println("obwod : " + t.circuit());
 
             t.angleType();
         } else {

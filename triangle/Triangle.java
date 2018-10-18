@@ -36,13 +36,13 @@ class Triangle {
     }
 
             // TODO check english name and refactor it
-    double pole() {
+    double field() {
         double p = (a + b + c) / 2;
 
         return Math.sqrt(p*(p-a)*(p-b)*(p-c));
     }
 
-    double obwod() {
+    double circuit() {
         return a + b + c;
     }
 }
