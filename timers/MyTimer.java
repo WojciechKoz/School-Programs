@@ -1,9 +1,9 @@
 public class MyTimer {
     private int hours, minutes, seconds;
-    static int howMany = 0;
+    static int createdTimers = 0;
 
     MyTimer() {
-        howMany++;
+        createdTimers++;
         System.out.print("make new Timer with ");
 
         hours = 0;
@@ -14,7 +14,7 @@ public class MyTimer {
     }
 
     MyTimer(int h, int m, int s) {
-        howMany++;
+        createdTimers++;
         System.out.print("make new Timer with");
 
         hours = h;
