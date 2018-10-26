@@ -36,7 +36,7 @@ public class Main {
 
         System.out.println(t5.compare(7, 10, 20));
 
-        System.out.println("how many timers we have created? " + MyTimer.howMany);
+        System.out.println("how many timers we have created? " + MyTimer.createdTimers);
     }
 
     private static void newTimerTests() {
@@ -74,7 +74,7 @@ public class Main {
 
         System.out.println(t5.compare(7, 10, 20));
 
-        System.out.println("how many (new)timers we have created? " + NewTimer.howMany);
+        System.out.println("how many (new)timers we have created? " + NewTimer.createdTimers);
     }
 
     public static void main(String [] args) {
